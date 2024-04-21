@@ -32,7 +32,7 @@ public class AddServlet extends HttpServlet {
         String middleName = req.getParameter("middleName");
         String subject = req.getParameter("subject");
         String mark = req.getParameter("mark");
-        if (!name.equals("") || !surname.equals("") || !middleName.equals("") || !subject.equals("") || !mark.equals("")) {
+        if (!name.isEmpty() || !surname.isEmpty() || !middleName.isEmpty() || !subject.isEmpty() || !mark.isEmpty()) {
             Student student = new Student(name, surname, middleName, subject, mark);
             if (fileUtil.writeStudent(student)) {
                 req.setAttribute("updated", true);

@@ -18,7 +18,7 @@ public class Serializator {
     public static void serialize(Object obj) throws IOException {
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("data.dat"));
         oos.writeObject(obj);
-        String message = "Serialize object type of:"+ obj.getClass();
+        String message = "Serialize object type of: "+ obj.getClass();
         serializatorLogger(message);
         System.out.println("Serialize is complete");
     }

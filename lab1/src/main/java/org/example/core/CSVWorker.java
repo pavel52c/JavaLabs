@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class CSVWorker implements Serializable {
-    private ArrayList<Subject> exams;
+    private final ArrayList<Subject> exams;
     private int errors = 0;
     private int num = 0;
     private int examsCount = 0;
@@ -101,7 +101,6 @@ public class CSVWorker implements Serializable {
     }
 
     private boolean checkInteger(String str) {
-        boolean res = false;
         char[] ch = str.toCharArray();
         for (char c : ch) {
             if (!(c >= 48 && c <= 59)) {

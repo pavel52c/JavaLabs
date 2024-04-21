@@ -76,13 +76,13 @@ public class SubjectAbstract implements Subject, Serializable {
 
     @Override
     public String toString() {
-        return "SubjectAbstract{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", subjectName='" + subjectName + '\'' +
-                ", hours=" + hours +
-                ", mark='" + mark + '\'' +
-                '}';
+        return "SubjectAbstract {" +
+                "id = " + id +
+                ", name = '" + name + '\'' +
+                ", surname = '" + surname + '\'' +
+                ", subjectName = '" + subjectName + '\'' +
+                ", hours = " + hours +
+                ", mark = '" + mark + '\'' +
+                "   }";
     }
 }

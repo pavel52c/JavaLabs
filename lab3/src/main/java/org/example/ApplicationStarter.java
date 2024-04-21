@@ -1,6 +1,7 @@
 package org.example;
 
-import org.example.dbWorker.DBWorker;
+
+import org.example.dbworker.DBWorker;
 
 import java.io.IOException;
 import java.sql.*;

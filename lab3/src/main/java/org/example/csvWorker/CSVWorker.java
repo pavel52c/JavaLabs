@@ -8,15 +8,10 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class CSVWorker implements Serializable{
-    private String fileName;
-    private ArrayList<Subject> exams;
+    private final ArrayList<Subject> exams;
 
     public CSVWorker(String fileName) throws IOException {
-        this.fileName = fileName;
         this.exams = getObjectsList(fileName);
-    }
-
-    public CSVWorker() {
     }
 
     public ArrayList<Subject> getExams() {
@@ -55,8 +50,8 @@ public class CSVWorker implements Serializable{
     private boolean checkInteger(String str){
         boolean res = false;
         char[] ch = str.toCharArray();
-        for (int i = 0; i < ch.length; i++) {
-            if(!(ch[i] >= 48 && ch[i] <= 59)){
+        for (char c : ch) {
+            if (!(c >= 48 && c <= 59)) {
                 return false;
             }
         }

@@ -1,4 +1,4 @@
-package org.example.dbWorker;
+package org.example.dbworker;
 
 import org.example.csvWorker.CSVWorker;
 import org.example.entities.Credit;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class DBWorker {
 
-    private final DBConnector dbConnector = new DBConnector();
+    private final org.example.dbWorker.DBConnector dbConnector = new org.example.dbWorker.DBConnector();
     private final Connection connection = dbConnector.getConnection();
 
     public DBWorker(String csvFile) throws SQLException, IOException {

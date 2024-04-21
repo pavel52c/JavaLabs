@@ -1,0 +1,2 @@
+2024-04-21T18:20:03.809927100| Serialize object type of: class java.util.ArrayList
+2024-04-21T18:20:03.835932700| Deserialize object type of:class java.util.ArrayList

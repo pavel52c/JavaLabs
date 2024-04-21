@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class AppStarter {
-
-
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         CSVWorker csvWorker = new CSVWorker("lab1.csv");
         Serializator.serialize(csvWorker.getExams());

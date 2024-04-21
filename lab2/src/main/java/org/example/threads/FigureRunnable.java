@@ -13,7 +13,7 @@ public class FigureRunnable implements Runnable{
     private final Component component;
     private int step = 0;
 
-    public FigureRunnable(Figure figure, Component component,int step) {
+    public FigureRunnable(Figure figure, Component component, int step) {
         this.figure = figure;
         this.component = component;
         this.step = step;

@@ -4,214 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a231583c-ec64-4f34-8cf3-cc956e7d9e43" name="Changes" comment="add labs">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/labs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/8.6/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/lab1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/AppStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/core/CSVWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/entities/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/entities/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/interfaces/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/interfaces/SubjectAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/8.6/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/AppStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/BouncingBallSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/DisplayWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/buttons/ExitButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/core/DisplayWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/core/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/figures/CustomRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/figures/CustomRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/figures/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/figures/FigureAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/panels/FigurePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/threads/FigureRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/lab3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/ApplicationStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/csv/IReadSCVFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/csv/ReadCSVFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/csvWorker/CSVWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/dbworker/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/dbworker/DBWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/dto/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/dto/HDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/dto/SSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/entities/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/entities/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/interfaces/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/interfaces/SubjectAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/threads/ReadRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/threads/UpdateRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/AppStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entities/BuyerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entities/DataStorageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entities/HDDDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entities/SSDDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entitiesDao/CreditDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entitiesDao/ExamDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entitiesDao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/dao/entitiesDao/SubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/HDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/SSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/entities/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/utils/HibernateConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/org/example/utils/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/resources/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/output/Швиндлерман_Павел_Игоревич" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/filters/CharsetFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/servlets/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/servlets/ExceptionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/servlets/ListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/java/lab6/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/webapp/views/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/webapp/views/errorPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/main/webapp/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/controllers/CrudController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/controllers/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/controllers/SubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/dao/entitiesDao/CreditDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/dao/entitiesDao/ExamDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/dao/entitiesDao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/dao/entitiesDao/SubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/entities/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/entities/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/entities/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/services/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/services/ApplicationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/services/Subject/ISubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/java/example/services/Subject/SubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/bootstrapEx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/dropmenu_with_search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/static/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/includes/adminnavbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/includes/links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/includes/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/creditEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/credits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/studentEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/subjectEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/src/main/resources/templates/views/subjects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/org/example/core/Serializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/main/java/org/example/core/Serializator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/src/main/java/org/example/core/MovingCircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/java/org/example/core/MovingCircles.java" afterDir="false" />
-    </list>
+    <list default="true" id="a231583c-ec64-4f34-8cf3-cc956e7d9e43" name="Changes" comment="add labs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,8 +71,17 @@
       <workItem from="1713109678980" duration="167000" />
       <workItem from="1713109852273" duration="143000" />
       <workItem from="1713281545962" duration="67000" />
-      <workItem from="1713632452939" duration="199000" />
+      <workItem from="1713632452939" duration="219000" />
     </task>
+    <task id="LOCAL-00001" summary="add labs">
+      <option name="closed" value="true" />
+      <created>1713632661282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713632661282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
