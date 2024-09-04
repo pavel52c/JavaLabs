@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class DBWorker {
 
-    private final org.example.dbWorker.DBConnector dbConnector = new org.example.dbWorker.DBConnector();
+    private final DBConnector dbConnector = new DBConnector();
     private final Connection connection = dbConnector.getConnection();
 
     public DBWorker(String csvFile) throws SQLException, IOException {

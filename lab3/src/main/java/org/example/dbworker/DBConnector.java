@@ -1,4 +1,4 @@
-package org.example.dbWorker;
+package org.example.dbworker;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
