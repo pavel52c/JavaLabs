@@ -25,20 +25,21 @@ public class AppStarter {
         Dao<Exam> examDao = new ExamDao();
 
         System.out.println("Проверка на findById в subject");
-        Subject subject = subjectDao.findById(4);
+        Subject subject = subjectDao.findById(2);
         System.out.println(subject);
         System.out.println("==================================================================");
 
         System.out.println("Проверка на findById в student");
-        Student student = studentDao.findById(732);
+        Student student = studentDao.findById(3);
         System.out.println(student);
         System.out.println("==================================================================");
 
         System.out.println("Создадим экзамен у студента, выведенного выше, и отобразим их");
         Exam exam = new Exam(subject,"отл", student);
         examDao.save(exam);
-        examHibernateUtil.displayItem(509);
-        Student studentExample = studentHibernateUtil.getItem(740);
+        examHibernateUtil.displayItem(1);
+        int studentId = 3;
+        Student studentExample = studentHibernateUtil.getItem(studentId);
         System.out.println(studentExample);
         System.out.println("==================================================================");
 
@@ -46,7 +47,7 @@ public class AppStarter {
         studentExample.setStudentName("QQQQQQQQQ");
         studentExample.setStudentSurname("LLLLLLLLLL");
         studentHibernateUtil.updateOrSaveItem(studentExample);
-        studentHibernateUtil.displayItem(740);
+        studentHibernateUtil.displayItem(studentId);
         System.out.println("==================================================================");
 
         System.out.println("Создадим студента и выведем всех, в конце должен появится наш новенький");
