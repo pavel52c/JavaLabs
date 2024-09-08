@@ -14,7 +14,7 @@ public class ServiceController implements ErrorController {
     public ModelAndView renderErrorPage(HttpServletRequest httpRequest) {
         Object status = httpRequest.getAttribute(RequestDispatcher.ERROR_STATUS_CODE);
         ModelAndView errorPage = new ModelAndView("error");
-        String errorMsg = "Какаято ошибка!";
+        String errorMsg = "Какая-то ошибка!";
         String errorCode = "";
         if (status != null){
             errorCode = status.toString();

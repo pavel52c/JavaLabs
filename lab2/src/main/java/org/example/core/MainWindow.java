@@ -21,7 +21,7 @@ public class MainWindow extends JFrame {
         setLocation(WINDOW_POSITION_X, WINDOW_POSITION_Y);
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         setResizable(false);
-        setTitle("Lab 7");
+        setTitle("Lab 2");
         JPanel grid = new JPanel(new GridLayout(1, 2));
         JPanel panel = new FigurePanel();
         add(panel);
