@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class FileUtil implements Serializable {
-    private final String PATH = "C:\\Users\\PavelKek\\Desktop\\labs\\lab6\\output\\";
+    private final String PATH = System.getProperty("user.dir") + "\\output\\";
 
     public Student getStudent(String fileName) {
         Student student = null;
@@ -18,9 +18,6 @@ public class FileUtil implements Serializable {
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);
             String name = reader.readLine();
-            System.out.println("========================");
-            System.out.println(name);
-            System.out.println("========================");
             String surname = reader.readLine();
             String middleName = reader.readLine();
             String subject = reader.readLine();

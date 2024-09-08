@@ -37,7 +37,7 @@
 <head>
     <title>
         <%
-            out.println("<title>" + title + "</title>");
+            out.println(title);
         %>
     </title>
 </head>
