@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.dstu</groupId>
-	<artifactId>lab12</artifactId>
+	<artifactId>lab7</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lab12</name>
+	<name>lab7</name>
 	<description>Lab 12</description>
 	<properties>
 		<java.version>1.8</java.version>
