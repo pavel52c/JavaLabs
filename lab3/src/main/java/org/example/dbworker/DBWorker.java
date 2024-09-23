@@ -3,8 +3,6 @@ package org.example.dbworker;
 import org.example.csvWorker.CSVWorker;
 import org.example.entities.Credit;
 import org.example.interfaces.Subject;
-import org.example.threads.ReadRunnable;
-import org.example.threads.UpdateRunnable;
 
 import java.io.IOException;
 import java.sql.*;
@@ -21,7 +19,6 @@ public class DBWorker {
         Statement statement = connection.createStatement();
         createTables(statement);
         writeToDatabase(records);
-        executeCustomQuery();
     }
 
     private void createTables(Statement statement) throws SQLException {
@@ -117,18 +114,5 @@ public class DBWorker {
             id = resultSet.getInt("id");
         }
         return id;
-    }
-
-    public void executeCustomQuery() {
-        Runnable updateRunnable = new UpdateRunnable(connection);
-        Thread updateThread = new Thread(updateRunnable);
-        String readString = "SELECT studentName, studentSurname, numberOfRecordBook, subjectName, countOfHours, mark" +
-                " FROM exam, student where exam.student_id=student.id UNION " +
-                "SELECT studentName, studentSurname, numberOfRecordBook, subjectName, countOfHours, mark" +
-                " FROM credit, student where credit.student_id=student.id order by numberOfRecordBook";
-        Runnable readRunnable = new ReadRunnable(readString, connection);
-        Thread readTread = new Thread(readRunnable);
-        updateThread.start();
-        readTread.start();
     }
 }
