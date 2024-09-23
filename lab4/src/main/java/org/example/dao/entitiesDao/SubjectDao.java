@@ -40,4 +40,9 @@ public class SubjectDao implements Dao<Subject> {
         Subject obj = findById(id);
         session.delete(obj);
     }
+
+    @Override
+    public List<Object[]> union() {
+        return null;
+    }
 }

@@ -12,13 +12,13 @@ public class Student {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "studentName")
+    @Column(name = "student_name")
     private String studentName;
 
-    @Column(name = "studentSurname")
+    @Column(name = "student_surname")
     private String studentSurname;
 
-    @Column(name = "numberOfRecordBook")
+    @Column(name = "number_of_record_book")
     private String numberOfRecordBook;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "student",cascade = CascadeType.ALL)

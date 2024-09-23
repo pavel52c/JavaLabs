@@ -62,4 +62,8 @@ public class HibernateUtil<T> {
     public void updateOrSaveItem(T obj){
         dao.save(obj);
     }
+
+    public List<Object[]> union() {
+        return dao.union();
+    }
 }

@@ -13,10 +13,10 @@ public class Subject {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "subjectName")
+    @Column(name = "subject_name")
     private String subjectName;
 
-    @Column(name = "countOfHours")
+    @Column(name = "count_of_hours")
     private int countOfHours;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "subject", cascade = CascadeType.ALL)

@@ -16,6 +16,8 @@ public class AppStarter {
         HibernateUtil<Exam> examHibernateUtil = new HibernateUtil<Exam>(Exam.class);
         HibernateUtil<Student> studentHibernateUtil = new HibernateUtil<Student>(Student.class);
 
+        studentHibernateUtil.union();
+
         System.out.println("Отобразим список экзаменов");
         examHibernateUtil.displayList();
         System.out.println("==================================================================");

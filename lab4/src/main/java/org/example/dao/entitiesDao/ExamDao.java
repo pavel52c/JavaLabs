@@ -40,4 +40,9 @@ public class ExamDao implements Dao<Exam> {
         Exam obj = findById(id);
         session.delete(obj);
     }
+
+    @Override
+    public List<Object[]> union() {
+        return null;
+    }
 }

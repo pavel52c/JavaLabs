@@ -10,4 +10,6 @@ public interface Dao<T> {
     public void save(T obj);
 
     public void deleteById(int id);
+
+    public List<Object[]> union();
 }

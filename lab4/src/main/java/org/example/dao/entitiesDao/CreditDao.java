@@ -40,4 +40,9 @@ public class CreditDao implements Dao<Credit> {
         Credit obj = findById(id);
         session.delete(obj);
     }
+
+    @Override
+    public List<Object[]> union() {
+        return null;
+    }
 }
